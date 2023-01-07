@@ -1,0 +1,292 @@
+@import url("./_vars.css");
+@import url("./_reset.css");
+@import url("./_base.css");
+@import url("./_section-cart.css");
+@import url("./");
+@import url("./");
+.header-menu {
+  display: flex;
+  justify-content: center;
+  height: clamp(9.375rem, 5.966rem + 17.05vw, 18.75rem);
+  align-items: center;
+  max-width: 1300px;
+  max-height: 300px;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.header-logo {
+  font-weight: 400;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+  letter-spacing: 4px;
+  color: #0f0d0d;
+  text-align: center;
+}
+
+svg {
+  font: clamp(1.875rem, 1.42rem + 2.27vw, 3.125rem) "Montserrat";
+  width: 960px;
+  height: clamp(6.25rem, 1.705rem + 22.73vw, 18.75rem);
+  margin: 0 0 0px 0;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  -webkit-animation: stroke-offset 5.5s infinite linear;
+          animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+  stroke: #4D163D;
+  -webkit-animation-delay: -1;
+          animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+  stroke: #840037;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+  stroke: #BD0034;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+  stroke: #BD0034;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+  stroke: #FDB731;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+
+@-webkit-keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
+
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
+.banner__container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+.banner__container p {
+  font-size: clamp(0.875rem, 0.648rem + 1.14vw, 1.5rem);
+  margin-bottom: 60px;
+}
+
+.section-bigHit {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 30px;
+  align-items: center;
+}
+
+.bigHit-title {
+  font-weight: 600;
+  font-size: clamp(1.125rem, 0.08rem + 5.23vw, 4rem);
+  margin: 0 0 25px 0;
+}
+
+.bigHit-about p, li, div {
+  margin-bottom: 20px;
+  font-size: clamp(0.625rem, 0.443rem + 0.91vw, 1.125rem);
+}
+
+.bigHit-info {
+  max-width: 537px;
+}
+.bigHit-info p {
+  margin-bottom: 15px;
+}
+.bigHit-info li {
+  margin-top: 5px;
+}
+
+.bigHit-image img {
+  border-radius: 25px;
+  align-items: center;
+}
+
+.section-nabis {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+
+.nabis-title {
+  font-weight: 600;
+  font-size: clamp(1.125rem, 0.08rem + 5.23vw, 4rem);
+  margin: 0px 0px 25px 0px;
+}
+
+.nabis-about p, li, div {
+  margin-bottom: 20px;
+  font-size: clamp(0.625rem, 0.443rem + 0.91vw, 1.125rem);
+}
+
+.nabis-info p {
+  margin-bottom: 15px;
+}
+.nabis-info li {
+  margin-top: 5px;
+}
+
+.nabis-image img {
+  border-radius: 25px;
+  align-items: center;
+}
+
+.bodyDance {
+  align-items: center;
+}
+
+.section-bodyDance {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 30px;
+  align-items: center;
+}
+
+.bodyDance-title {
+  font-weight: 600;
+  font-size: clamp(1.125rem, 0.08rem + 5.23vw, 4rem);
+  margin: 25px 0;
+}
+
+.bodyDance-about p, li, div {
+  margin-bottom: 20px;
+  font-size: clamp(0.625rem, 0.443rem + 0.91vw, 1.125rem);
+}
+
+.bodyDance-info {
+  max-width: 537px;
+}
+.bodyDance-info p {
+  margin-bottom: 15px;
+}
+.bodyDance-info li {
+  margin-top: 5px;
+}
+
+.bodyDance-image img {
+  border-radius: 25px;
+}
+
+.theHits {
+  align-items: center;
+  display: flex;
+}
+
+.section-theHits {
+  display: flex;
+  margin-bottom: 25px;
+  gap: 30px;
+  align-items: center;
+}
+
+.theHits-title {
+  font-weight: 600;
+  font-size: clamp(1.125rem, 0.08rem + 5.23vw, 4rem);
+  margin: 0 0 25px 0;
+}
+
+.theHits-about p, li, div {
+  margin-bottom: 20px;
+  font-size: clamp(0.625rem, 0.443rem + 0.91vw, 1.125rem);
+}
+
+.theHits-info {
+  max-width: 537px;
+}
+.theHits-info p {
+  margin-bottom: 15px;
+}
+.theHits-info li {
+  margin-top: 5px;
+}
+
+.theHits-image img {
+  border-radius: 25px;
+}
+
+.theClaps {
+  align-items: center;
+  display: flex;
+}
+
+.section-theClaps {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 30px;
+  align-items: center;
+}
+
+.theClaps-title {
+  font-weight: 600;
+  font-size: clamp(1.125rem, 0.08rem + 5.23vw, 4rem);
+  margin: 0px 0px 25px 0px;
+}
+
+.theClaps-about p, li, div {
+  margin-bottom: 20px;
+  font-size: clamp(0.625rem, 0.443rem + 0.91vw, 1.125rem);
+}
+
+.theClaps-info {
+  max-width: 537px;
+}
+.theClaps-info p {
+  margin-bottom: 15px;
+}
+.theClaps-info li {
+  margin-top: 5px;
+}
+
+.theClaps-image img {
+  border-radius: 25px;
+}
+
+.footer-group {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-title {
+  font-size: 34px;
+}
+
+.footer-info p {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 980px) {
+  .section-bigHit, .section-theHits, .section-bodyDance, .section-nabis, .section-theClaps {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
