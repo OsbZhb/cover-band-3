@@ -127,7 +127,6 @@ svg {
 
 .bigHit-image img {
   border-radius: 25px;
-  align-items: center;
   width: 100%;
   max-width: 700px;
 }
@@ -136,6 +135,7 @@ svg {
   display: flex;
   margin-bottom: 50px;
   gap: 30px;
+  align-items: center;
 }
 
 .nabis-title {
@@ -156,9 +156,13 @@ svg {
   margin-top: 5px;
 }
 
+.nabis-image {
+  display: flex;
+  align-items: center;
+}
 .nabis-image img {
   border-radius: 25px;
-  align-items: center;
+  min-width: 700px;
 }
 
 .bodyDance {
